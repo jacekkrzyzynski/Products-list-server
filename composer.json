@@ -1,0 +1,24 @@
+{
+    "name": "jacek80/bmserver",
+    "description": "BM recruitment task - server side",
+    "require": { },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jacek Krzyzynski",
+            "email": "jacek.krzyzynski@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "jacek80\\bmserver\\bmserverServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "jacek80\\bmserver\\": "src/"
+        }
+    }      
+}
